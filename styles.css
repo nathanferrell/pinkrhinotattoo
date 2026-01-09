@@ -176,10 +176,16 @@ footer {
 
 .instagram-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, 340px);
+
   gap: 3rem;
   align-items: start;
+
+  justify-content: center;   /* KEEP */
+  max-width: 1200px;         /* ADD */
+  margin: 0 auto;            /* ADD */
 }
+
 
 .artist-card {
   display: flex;
