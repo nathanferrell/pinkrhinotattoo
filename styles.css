@@ -97,9 +97,7 @@ section {
   }
 
   .center-logo {
-    position: static;
-    transform: none;
-    height: 100px;
+    display: none;   /* ← THIS hides actualrhino.jpg */
   }
   .shop-details {
     grid-template-columns: 1fr;
